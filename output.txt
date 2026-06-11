@@ -1,0 +1,286 @@
+PS C:\Users\ADMIN\OneDrive\Documents\GitHub\acp-2d-graphic-editor> gcc "final code.c" -o test.exe
+PS C:\Users\ADMIN\OneDrive\Documents\GitHub\acp-2d-graphic-editor> .\test.exe
+=====================================
+      2D GRAPHICS EDITOR IN C
+=====================================
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 1
+Enter starting row: 2
+Enter starting column: 5
+Enter height: 3
+Enter width: 6
+Rectangle ID = 1
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 2
+Enter start point (row col): 0 0
+Enter end point (row col): 5 5
+Line ID = 2
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 3
+Enter Vertex 1 (row col): 2 20
+Enter Vertex 2 (row col): 8 15
+Enter Vertex 3 (row col): 8 25 
+Triangle ID = 3
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 4
+Enter center row: 10 
+Enter center column: 30
+Enter radius: 3
+Circle ID = 4
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 6
+
+========== OBJECT LIST ==========
+ID: 1 | Rectangle
+ID: 2 | Line
+ID: 3 | Triangle
+ID: 4 | Circle
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 5
+
+* _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ * _ _ * * * * * * _ _ _ _ _ _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ * _ * * * * * * _ _ _ _ _ _ _ _ * _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ * * * * * * * _ _ _ _ _ _ _ * _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ _ _ _ * _ _ _ _ * * * _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * * * * * * * * * * * _ _ * _ _ _ * _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ _ * _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ _ * _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ _ * _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ * _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * * * _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 8
+
+========== OBJECT LIST ==========
+ID: 1 | Rectangle
+ID: 2 | Line
+ID: 3 | Triangle
+ID: 4 | Circle
+Enter Object ID to modify: 1
+Enter new row: 6
+Enter new column: 10
+Enter new height: 2
+Enter new width: 5
+Object modified successfully!
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 5
+
+* _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ * * * * * _ _ * _ _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ * * * * * _ * _ _ _ _ _ _ _ * _ _ _ _ * * * _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * * * * * * * * * * * _ _ * _ _ _ * _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ _ * _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ _ * _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ _ * _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ * _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * * * _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 7
+
+========== OBJECT LIST ==========
+ID: 1 | Rectangle
+ID: 2 | Line
+ID: 3 | Triangle
+ID: 4 | Circle
+Enter Object ID to delete: 4
+Object deleted successfully!
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 6
+
+========== OBJECT LIST ==========
+ID: 1 | Rectangle
+ID: 2 | Line
+ID: 3 | Triangle
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 5
+
+* _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ * _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ * * * * * _ _ * _ _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ * * * * * _ * _ _ _ _ _ _ _ * _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ * * * * * * * * * * * _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 9
+Canvas cleared successfully!
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Display Canvas
+6. Display Objects
+7. Delete Object
+8. Modify Object
+9. Clear Canvas
+10. Exit
+
+Enter your choice: 10
+Exiting...
